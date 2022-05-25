@@ -17,7 +17,7 @@ class App extends Component {
 
   componentDidMount = () => {
     fetch(
-      "https://data.cityofnewyork.us/resource/5ucz-vwe8.json&$$app_token=yS0vUdeTk57XnkVJDjMTMWQgd"
+      "https://data.cityofnewyork.us/resource/5ucz-vwe8.json?$$app_token=yS0vUdeTk57XnkVJDjMTMWQgd"
     )
       .then((response) => response.json())
       .then((data) => {
